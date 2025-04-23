@@ -52,8 +52,6 @@ Secured access to Traefik dashboard using Basic Auth
 
 Automatic generation of .env, .traefikpasswd, docker-compose.yml, and tls.yml
 
-Hardened security config with options like HSTS, rate limiting, gzip compression (optional)
-
 🧩 Perfect for:
 Self-hosted environments (Hetzner, DigitalOcean, Proxmox VMs, etc.)
 
