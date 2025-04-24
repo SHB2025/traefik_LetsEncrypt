@@ -165,8 +165,8 @@ else
 fi
 
 # Pita korisnika da li želi automatski pokrenuti Traefik
-read -p "Želite li automatski pokrenuti Traefik? (da/ne): " AUTOMATIC_START
-if [ "$AUTOMATIC_START" == "da" ]; then
+read -p "Želite li automatski pokrenuti Traefik? (Y/N): " AUTOMATIC_START
+if [[ "$AUTOMATIC_START" == "y" || "$AUTOMATIC_START" == "Y" ]]; then
   echo "Pokrećem Traefik..."
   cd traefik
   docker-compose up -d || docker compose up -d
