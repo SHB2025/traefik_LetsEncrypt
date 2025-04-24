@@ -11,7 +11,7 @@
 
 # Koraci za preuzimanje i izvršavanje skripte (Steps to download and run the script):
 
-    wget 
+    wget https://github.com/SHB2025/traefik_LetsEncrypt/blob/main/Traefik_LetsEncrypt.sh
 
     chmod +x Traefik_LetsEncrypt.sh
 
