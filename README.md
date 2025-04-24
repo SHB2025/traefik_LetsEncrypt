@@ -11,7 +11,7 @@
 
 # Koraci za preuzimanje i izvršavanje skripte (Steps to download and run the script):
 
-    wget https://raw.githubusercontent.com/SHB2025/traefik_cloudflare/refs/heads/main/traefik_cloudflare.sh
+    wget 
 
     chmod +x Traefik_LetsEncrypt.sh
 
